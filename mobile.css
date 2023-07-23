@@ -1,0 +1,19 @@
+@media  screen and (max-width:900px) {
+
+   /* footer section starts here  */
+.a51{
+    border: solid tomato 2px;
+    height: auto;
+display: flex;
+flex-direction: column;
+}
+.good{
+    border: solid tomato 2px;
+    height: auto;
+display: flex;
+flex-direction: column;
+}
+
+
+   /* footer section ends here  */
+}
