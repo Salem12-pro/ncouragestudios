@@ -1,19 +1,281 @@
-@media  screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
+  /* nav bar starts here */
 
-   /* footer section starts here  */
-.a51{
-    border: solid tomato 2px;
+  nav {
     height: auto;
-display: flex;
-flex-direction: column;
+    width: 100%;
+    /* padding: 20px; */
+    /* padding-right: 30px; */
+
+  }
+
+  .goodboy {
+    display: none;
+  }
+  
+  /* mobile view starts here */
+  .goodboymobile {
+    display: block;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: auto;
+  }
+
+  .grandlogomenu {
+    width: 100%;
+    display: flex;
+  }
+
+  .parentlogomenu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .parentempty {
+    width: 40%;
+  }
+
+  .menu {
+    height: 50px;
+    width: 50px;
+    right: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .mobilemaster{
+    /* height: 150px; */
+    background: #7D614C;
+    border-radius: 10px;
+    padding: 0px;
+    display: none;
+  }
+
+  .show-link{
+    display: block;
+  }
+
+  .mobilemaster ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height:100px;
+  }
+
+  .mobilemaster ul li{
+    padding: 0%;
+    margin: 0;
+    margin-top: 7px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .showmobilelink{
+    
+  }
+
+
+
+  .hamburger {
+    width: 30px;
+    height: 3px;
+    background: white;
+    border-radius: 30px;
+    
+  }
+  
+  .hamburger::before{
+    width: 30px;
+    height: 3px;
+    content: "";
+    left: 0;
+    background: white;
+    border-radius: 30px;
+    position: absolute;
+    transform: translateY(-7px);
+  }
+  
+  .hamburger::after{
+    content: "";
+    right: 0;
+    width: 30px;
+    height: 3px;
+    background: white;
+    border-radius: 30px;
+    position: absolute;
+    transform: translateY(7px);
+  }
+
+  .badboy {
+    margin-top: 100px;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 300px;
+  }
+
+.show-burger .hamburger{
+  background: transparent;
 }
-.good{
-    border: solid tomato 2px;
+
+.show-burger .hamburger::before{
+  background: white;
+  transform: rotate(45deg);
+  left: 10px;
+}
+
+.show-burger .hamburger::after{
+  background: white;
+  transform: rotate(-45deg);
+  right: 10px;
+}
+  
+
+
+
+    /* mobile view ends here  */
+
+  /* first section starts here */
+  .sec1 {
+    display: flex;
+    flex-direction: column;
     height: auto;
-display: flex;
-flex-direction: column;
+  }
+
+.brandimg{
+  width: 100%;
+  padding: 20px 0;
 }
 
+  .thebest {
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
 
-   /* footer section ends here  */
+  .theworst {
+    border: white solid 2px;
+    width: 300px;
+    align-items: flex-start;
+    margin-left: 0;
+  }
+
+  /* first section ends here */
+  /* second section starts here */
+  .sec2 {
+    height: auto;
+  }
+
+  .divmaster {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .sec2div1 {
+    width: 100%;
+  }
+  .sec2div2 {
+    width: 100%;
+  }
+  .sec2div3 {
+    width: 100%;
+  }
+
+  /* second section ends here */
+  /* section four starts here */
+  /* SCROLL SECTION STARTS HERE */
+  .sec3 {
+    display: none;
+  }
+
+  .div-grandmaster {
+  }
+  .div-master1 {
+  }
+  .div-master2 {
+  }
+  .div-child21 {
+  }
+  .div-child22 {
+  }
+  .div-master4 {
+  }
+  .div-master5 {
+  }
+
+  .sec4 {
+    display: none;
+  }
+
+  .div2 {
+    width: 1000px;
+    overflow-x: auto;
+    position: relative;
+  }
+
+  .div21 {
+    width: 200px;
+  }
+  .div22 {
+  }
+  .div23 {
+  }
+  .div24 {
+  }
+  .div25 {
+  }
+  /* SCROLL SECTION STARTS HERE */
+  /* section four ends here */
+  /* footer section starts here  */
+
+  footer {
+    height: auto;
+    padding: 20px;
+  }
+
+  .a51 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .a551 {
+    text-align: center;
+  }
+
+  .a53 {
+    margin-bottom: 5px;
+    padding: 0px;
+    margin-top: 0px;
+  }
+
+  .good {
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    font-size: 13px;
+  }
+
+  .boy {
+    margin-bottom: 0px;
+  }
+
+  .a55 {
+    font-size: 13px;
+  }
+
+  /* footer section ends here  */
 }

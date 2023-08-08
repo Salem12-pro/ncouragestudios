@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,12 +7,12 @@
     <title>29.06.23 Assignment</title>
     <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="mobile.css" />
   </head>
   <body>
-    <nav>
+<nav>
       <div class="bg-overlay"></div>
-      <div class="goodboy">
+     <div class="goodboy">
         <div>
           <ul>
             <li>Home</li>
@@ -22,13 +22,35 @@
         </div>
         <div class="logo"></div>
       </div>
+      <!-- mobile view starts here -->
+     <div class="goodboymobile">
+      <div class="grandlogomenu">
+        <div class="parentempty"></div>
+        <div class="parentlogomenu">
+          <div class="logo"></div>
+          <div class="menu" onclick="dosomething()">
+    
+            <div class="hamburger"></div>
+          </div>
+        </div>
+      </div>
+        <div class="mobilemaster">
+          <ul>
+            <li class="showmobilelink">Home</li>
+            <li class="showmobilelink">Gallery</li>
+            <li class="showmobilelink">Let's Talk</li>
+          </ul>
+        </div>
+        <div class="goaway"></div>
+      </div>
       <div class="badboy">
         <h1>We are Ncourage</h1>
-        <p>
-          Ncourage is an Educator, Retoucher and a <br />
+        <p>    
+          Ncourage is an Educator, Retoucher and <br/> a 
           professional photographer based in Nigeria, Africa.
         </p>
       </div>
+      <!-- mobile view ends here  -->
     </nav>
     <!-- SECTION ONE STARTS HERE -->
     <section class="sec1">
@@ -44,7 +66,7 @@
         </h1>
         <p>
           As a Photographer, I strive for an ideal capture that <br />
-          requires minimal post-production, and as a <br />
+          requires minimal post-production, and as a <br/>
           Retoucher, I leave no trace of my presence, while <br />
           elevating a perfectly captured image and as an <br />
           Educator, I am dedicated at ensuring my students <br />
@@ -133,35 +155,30 @@
     <!-- FOOTER STARTS HERE -->
     <footer>
       <div class="a51">
-        <div class="logo2">
-      </div>
-      <div class="good">
-       <p>
-         The world without photography will be meaningless <br>
-            to  us if there is no light and color, which opens up our <br> minds and expresses passion.
-       </p> 
+        <div class="logo2"></div>
+        <div class="good">
+          <p class="boy">
+            The world without photography will be meaningless <br />
+            to us if there is no light and color, which opens up our minds and
+            expresses passion.
+          </p>
 
           <div class="a53">
             <h2>Contacts</h2>
             <h4>
-              Phone: +234 706 817 2124 <br>
+              Phone: +234 706 817 2124 <br />
               Email: courage@couragestudios
             </h4>
           </div>
         </div>
-          
-          
-          
-        </h4>
-      </div>
 
-    <div class="a55">
-      <p>
-        Copyright © 2021 Ncourage. All Rights Reserved. 
-      </p>
-Developed by icoweb
-    </div>
-  </footer>
+        <div class="a55">
+          <p class="a551">Copyright © 2021 Ncourage. All Rights Reserved.</p>
+          <p class="a551">Developed by icoweb</p>
+        </div>
+      </div>
+    </footer>
     <!-- FOOTER ENDS HERE -->
+    <script src="main.js"></script>
   </body>
 </html>

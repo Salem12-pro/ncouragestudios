@@ -56,14 +56,26 @@ li {
   background-repeat: no-repeat;
 }
 
+.goodboymobile{
+  display: none;
+}
+
 .badboy {
   margin-top: 150px;
   text-align: center;
 }
 
+.mobilenavbar{
+  display: none;
+}
+
+
+
+
+
+
 .badboy h1 {
   font-size: 40px;
-  line-height: 10px;
   font-weight: auto;
 }
 
@@ -76,6 +88,7 @@ li {
 
 /* SECTION ONE STARTS HERE */
 .sec1 {
+  border: yellow solid 2px;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -107,6 +120,7 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 
 .theworst {
